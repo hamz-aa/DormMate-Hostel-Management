@@ -1,0 +1,444 @@
+{
+  "admin": {
+    "id": "1",
+    "name": "admin",
+    "password": "admin",
+    "email": "admin@mail.com"
+  },
+  "students": [
+    {
+      "id": "62df",
+      "name": "Zia  Hussain",
+      "email": "zia@gmail.com",
+      "password": "121212",
+      "college": "FAST University",
+      "course": "Engineering",
+      "hostel": "Hostel1",
+      "room_no": "",
+      "room_type": "Double",
+      "fee_status": "Pending",
+      "room_change_request": null,
+      "room_booked_until": "",
+      "profileColor": "#FFA833",
+      "profileIcon": "ZH"
+    },
+    {
+      "id": "c0d3",
+      "name": "User1",
+      "email": "user1@example.com",
+      "password": "121212",
+      "college": "FAST University",
+      "course": "Engineering",
+      "hostel": "Hostel1",
+      "room_no": "",
+      "room_type": "Single",
+      "fee_status": "Pending",
+      "room_change_request": null,
+      "room_booked_until": "",
+      "profileColor": "#33FFA8",
+      "profileIcon": "U"
+    },
+    {
+      "id": "83f4",
+      "name": "Syed Zia Shah",
+      "email": "syedziashahgillani76@gmail.com",
+      "password": "121212",
+      "college": "FAST University",
+      "course": "Engineering",
+      "hostel": "Hostel1",
+      "room_no": "",
+      "room_type": "Single",
+      "fee_status": "Pending",
+      "room_change_request": null,
+      "room_booked_until": "",
+      "profileColor": "#FF5733",
+      "profileIcon": "SZS"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "9068",
+      "title": "Just Checking",
+      "date": "7/18/2024",
+      "description": "hello students, i am just checking that announcements is working or not so tell me are you getting this "
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "e420",
+      "title": "About laptop",
+      "description": "i need laptop because my laptop is giving me some technical problems so can you please ",
+      "date": "2024-07-05"
+    },
+    {
+      "id": "638a",
+      "title": "About Staff",
+      "description": "Hey Admin, i came to your hostel yesterday for registration, but i found your staff little bit rude behavior so please look into matter and order them to be polite with the students and coming students too, thanks !",
+      "date": "2024-07-16"
+    },
+    {
+      "id": "93n4",
+      "title": "Just Checking",
+      "description": "Hey Admin, i came to your hostel yesterday for registration, but i found your staff little bit rude behavior so please look into matter and order them to be polite with the students and coming students too, thanks !",
+      "date": "2024-07-16"
+    },
+    {
+      "id": "fb93",
+      "title": "Room Working",
+      "description": "some over here",
+      "date": "2024-07-24"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "room_no": "102",
+      "room_type": "Single",
+      "status": "Available",
+      "price": "10000"
+    },
+    {
+      "id": "2",
+      "room_no": "103",
+      "room_type": "Double",
+      "status": "Available",
+      "price": "5000"
+    },
+    {
+      "id": "3",
+      "room_no": "804",
+      "room_type": "Double",
+      "status": "Available",
+      "price": "8000"
+    },
+    {
+      "id": "4",
+      "room_no": "104",
+      "room_type": "Double",
+      "status": "Maintenance",
+      "price": "4000"
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "_id": "669a063b42017e0df06550e8",
+      "student_id": [],
+      "room_no": 106,
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000",
+      "createdAt": "2024-07-19T06:22:51.296Z",
+      "updatedAt": "2024-07-19T06:22:51.296Z",
+      "__v": 0
+    },
+    {
+      "id": 8,
+      "_id": "66a0fbe2e763bf5ca0dff344",
+      "student_id": [],
+      "room_no": 102,
+      "room_type": "Double",
+      "status": "Available",
+      "price": "800",
+      "createdAt": "2024-07-18T05:47:55.242Z",
+      "updatedAt": "2024-07-19T07:25:48.016Z",
+      "__v": 4
+    },
+    {
+      "id": 8,
+      "_id": "66a0fbe2e763bf5ca0dff344",
+      "student_id": [],
+      "room_no": 102,
+      "room_type": "Double",
+      "status": "Available",
+      "price": "800",
+      "createdAt": "2024-07-18T05:47:55.242Z",
+      "updatedAt": "2024-07-19T07:25:48.016Z",
+      "__v": 4
+    },
+    {
+      "id": 8,
+      "_id": "66a0fbe2e763bf5ca0dff344",
+      "student_id": [],
+      "room_no": 102,
+      "room_type": "Double",
+      "status": "Available",
+      "price": "800",
+      "createdAt": "2024-07-18T05:47:55.242Z",
+      "updatedAt": "2024-07-19T07:25:48.016Z",
+      "__v": 4
+    },
+    {
+      "id": 8,
+      "room_no": "102",
+      "room_type": "Single",
+      "status": "Occupied",
+      "price": "15000"
+    },
+    {
+      "id": 8,
+      "room_no": "102",
+      "room_type": "Single",
+      "status": "Occupied",
+      "price": "15000"
+    },
+    {
+      "id": 8,
+      "room_no": "102",
+      "room_type": "Single",
+      "status": "Occupied",
+      "price": "15000"
+    },
+    {
+      "id": 24,
+      "room_no": "108",
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000"
+    },
+    {
+      "id": 25,
+      "room_no": "10010",
+      "room_type": "Double",
+      "status": "Maintenance",
+      "price": "800"
+    },
+    {
+      "id": 26,
+      "room_no": "10010",
+      "room_type": "Double",
+      "status": "Maintenance",
+      "price": "900"
+    },
+    {
+      "id": 27,
+      "room_no": "10010",
+      "room_type": "Double",
+      "status": "Maintenance",
+      "price": "400"
+    },
+    {
+      "id": 28,
+      "room_no": "",
+      "room_type": "",
+      "status": "",
+      "price": ""
+    },
+    {
+      "id": 7,
+      "room_no": "10010",
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000"
+    },
+    {
+      "id": 7,
+      "room_no": "10010",
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000"
+    },
+    {
+      "id": 7,
+      "room_no": "10010",
+      "room_type": "Single",
+      "status": "Available",
+      "price": "15000"
+    }
+  ],
+  "fees": [
+    {
+      "id": "4",
+      "month": "April",
+      "year": 2024,
+      "amount": 200,
+      "due_date": "2024-04-30",
+      "consumer_id": "0123456789",
+      "paid": []
+    },
+    {
+      "id": "3",
+      "month": "March",
+      "year": 2024,
+      "amount": 200,
+      "due_date": "2024-03-31",
+      "consumer_id": "0123456789",
+      "paid": [
+        1
+      ]
+    },
+    {
+      "id": "2",
+      "month": "February",
+      "year": 2024,
+      "amount": 200,
+      "due_date": "2024-02-28",
+      "consumer_id": "0123456789",
+      "paid": [
+        1
+      ]
+    },
+    {
+      "id": "1",
+      "month": "January",
+      "year": 2024,
+      "amount": 200,
+      "due_date": "2024-01-31",
+      "consumer_id": "0123456789",
+      "paid": [
+        1
+      ]
+    },
+    {
+      "id": "1e35",
+      "month": "July",
+      "year": 2024,
+      "amount": "184",
+      "due_date": "2024-07-30",
+      "consumer_id": "Z4U9F485PI",
+      "paid": []
+    }
+  ]
+}

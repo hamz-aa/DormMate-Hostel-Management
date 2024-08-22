@@ -1,0 +1,27 @@
+/* Gilroy */
+@font-face {
+    font-family: 'Gilroy-regular';
+    src: url('../assets/Fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy-bold';
+    src: url('../assets/Fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Gilroy-light';
+    src: url('../assets/Fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+    font-weight: light;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gilroy-extra';
+    src: url('../assets/Fonts/Gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+  }

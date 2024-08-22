@@ -1,0 +1,28 @@
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #34495e;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+.loader-container h1 {
+  font-size: 1.5vw;
+  color: #34495e;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

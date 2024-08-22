@@ -1,0 +1,164 @@
+.signup {
+  background-color: white;
+  font-family: "Gilroy-regular", "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px; */
+  scrollbar-width: thin;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.signup_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.signup_row {
+  width: 100%;
+}
+
+.terms_and_condition {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -10px;
+}
+.signin {
+  /* border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px; */
+}
+@media (max-width: 1023px) {
+  .signup,
+  .signin {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
+#languages,
+select {
+  border: none;
+  outline: none;
+  width: max-content;
+  padding-inline: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #9d9d9d;
+  background-color: transparent;
+}
+#languages option {
+  background-color: aliceblue;
+}
+#languages option:hover {
+  background: #000 !important;
+  cursor: pointer;
+}
+/* Transition  */
+
+/* AuthForm.css */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+/* Input Css  */
+
+.input-text {
+  position: relative;
+  font-size: 1rem;
+  padding: 10px 10px 7.5px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1.5px solid #9d9d9d;
+  background: transparent;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+.input-text.name {
+  width: 350px;
+  max-width: 400px;
+}
+.input-text.email {
+  width: 350px;
+  max-width: 400px;
+}
+@media only screen and (min-width: 640px) {
+  .input-text {
+    width: 250px;
+  }
+
+  .responsive-input-row {
+    width: 350px;
+  }
+}
+
+.input-label {
+  position: absolute;
+  color: #9d9d9d; /* Gray color by default */
+  font-size: 1rem; /* text-lg equivalent */
+  font-weight: normal;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: top 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+}
+
+.input-text:focus ~ .input-label,
+.input-text:valid ~ .input-label {
+  top: -10px;
+  font-size: 0.875rem; /* text-sm equivalent */
+  color: #294151; /* Color when input is focused */
+}
+
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.input-text:focus ~ .highlight {
+  animation: inputHighlighter 0.3s ease;
+}
+
+.input-text:focus {
+  border-bottom-color: #294151; /* Change bar color on focus */
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: #294151;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+
+/* forgot password  */
+
+/* AuthForm.css */
+
