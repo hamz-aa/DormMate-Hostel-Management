@@ -92,7 +92,7 @@ Welcome to the **DormMate Hostel Management System**! This project is designed t
 
    ```bash
    cd client
-   npm start
+   npm run dev
    ```
 
 6. **Access the Application**:
